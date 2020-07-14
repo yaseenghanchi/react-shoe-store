@@ -1,9 +1,10 @@
 import React from 'react';
+import { Outlet } from 'react-router-dom';
 
 const Store = () => {
     return (
         <div>
-            Store component Works!!
+            <Outlet/>
         </div>
     );
 };
